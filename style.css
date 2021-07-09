@@ -4,7 +4,6 @@ body    {
 }
 .full-section{
     display: flex;
-    margin-bottom: 100px;
 }
 .half-width{
     margin-top: 200px;
@@ -51,4 +50,23 @@ background-repeat: no-repeat;
     border-radius: 10px;
     background-image: linear-gradient(red, yellow);
     font-weight: 700;
+}
+.recepies{
+text-align: center;
+margin-bottom: 120px;
+}
+.Buffalo-Chicken{
+    
+    width: 25%
+}
+.Oreo-Rice-Krispies{
+  
+    width: 25%
+}
+.Easy-recipes{
+  
+    width: 25%
+}
+.food-recepies{
+    text-align: center;
 }
