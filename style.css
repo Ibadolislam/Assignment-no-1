@@ -4,6 +4,7 @@ body    {
 }
 .full-section{
     display: flex;
+    margin: 0px;
 }
 .half-width{
     margin-top: 200px;
@@ -53,20 +54,60 @@ background-repeat: no-repeat;
 }
 .recepies{
 text-align: center;
-margin-bottom: 120px;
+margin-bottom: 50px;
 }
 .Buffalo-Chicken{
-    
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    padding:20px;
+    margin-left: 3%;
+    margin-right: 3%;
     width: 25%
+    
 }
 .Oreo-Rice-Krispies{
-  
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
     width: 25%
 }
 .Easy-recipes{
-  
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(87, 77, 77);
+    padding:20px;
+    margin-left: 3%;
+    margin-right: 3%;
     width: 25%
 }
 .food-recepies{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+}
+.followers{
+    margin: 20px;
+    display: flex;
+}
+#followers-1{
+    margin-left:30%;
+    width:15%
+}
+#followers-2{
+   
+    width:15%
+}
+#followers-3{
+    margin-right: 30%;
+    width: 15%;
+}
+footer p{
+    background-color: lightslategray;
+    padding:10px 10px;
     text-align: center;
+    font-weight: 700;
+
 }
