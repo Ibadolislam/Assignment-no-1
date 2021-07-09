@@ -25,7 +25,7 @@ span{
 .half-width img{
     width: 80%;
     margin-right: 110px;
-    margin-bottom: 100px;
+   padding-bottom: 100px;
 }
 .top-banner{
 background-image: url(images/shapes/Frame\ 57.jpg);
@@ -35,4 +35,20 @@ background-repeat: no-repeat;
     background-image: url(images/shapes/7.png);
     width:auto
     background-repeat: no-repeat;
+}
+.about-section{
+    margin-left: 200px;
+    margin-top: 150px;
+    width:40%
+}
+.second-banner img{
+    margin-left: 100px;
+    
+}
+.contact-us{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(red, yellow);
+    font-weight: 700;
 }
