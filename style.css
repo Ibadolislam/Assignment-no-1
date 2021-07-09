@@ -1,10 +1,39 @@
-span  {
-    color: blueviolet;
+body    {
+    font-family:'Poppins', sans-serif;
+    margin: 0;;
 }
-section{
+.full-section{
     display: flex;
+    margin-bottom: 150px;
 }
-.food-header{
-width: 50%;
-
+.half-width{
+    margin-top: 200px;
+    width: 40%;
+    margin-left:110px;
+}
+span{
+    color:orange
+}
+.order-now{
+    text-decoration: none;
+    margin-top: 200px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(red, yellow);
+    font-weight: 700;
+    margin-top: 200px;
+}
+.half-width img{
+    width: 80%;
+    margin-right: 110px;
+    margin-bottom: 300px;
+}
+.top-banner{
+background-image: url(images/shapes/Frame\ 57.jpg);
+background-repeat: no-repeat;
+}
+.second-banner{
+    background-image: url(images/shapes/7.png);
+    width:auto
+    background-repeat: no-repeat;
 }
